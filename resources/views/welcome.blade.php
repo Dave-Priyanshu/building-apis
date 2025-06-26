@@ -38,7 +38,7 @@
         <div class="card">
             <i class="uil uil-code-branch card-icon"></i>
             <h3>API Tutorial</h3>
-            <a href="#" class="card-button">Get Started</a>
+            <a href="{{ route('customers.index') }}" class="card-button">Get Started</a>
         </div>
         <!-- Placeholder cards (hidden initially) -->
         <div class="card hidden">
