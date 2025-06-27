@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\StudentController;
 use App\Http\Controllers\Api\V1\CustomerController;
 use App\Http\Controllers\Api\V1\InvoiceController;
 use App\Http\Controllers\AuthController;
@@ -33,3 +34,5 @@ Route::group(['prefix' => 'v1', 'namespace'=> 'App\Http\Controllers\Api\V1'], fu
     Route::apiResource('customers', CustomerController::class);
     Route::apiResource('invoices', InvoiceController::class);
 });
+
+Route::apiResource('students', StudentController::class);
