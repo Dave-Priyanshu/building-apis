@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     @laravelPWA
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API Learning Hub</title>
@@ -20,6 +21,8 @@
             </li>
         </ul>
     </nav>
+    <p>if you want to create a desktop application of the site visit the following link:</p>
+    <a href="https://github.com/silviolleite/laravel-pwa">Laravel PWA - Click here</a>
     <div class="hero">
         <h1>API Learning Hub</h1>
         <p>Master APIs and web development with hands-on tutorials</p>
