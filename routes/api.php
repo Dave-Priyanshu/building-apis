@@ -5,6 +5,7 @@ use App\Http\Controllers\Api\StudentController;
 use App\Http\Controllers\Api\V1\CustomerController;
 use App\Http\Controllers\Api\V1\InvoiceController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\PetitionController;
 use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -39,3 +40,5 @@ Route::group(['prefix' => 'v1', 'namespace'=> 'App\Http\Controllers\Api\V1'], fu
 Route::apiResource('students', StudentController::class);
 
 Route::post("register",[ApiController::class,'register']);
+
+Route::apiResource('/petitions',PetitionController::class);

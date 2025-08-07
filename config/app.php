@@ -15,6 +15,15 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+    'author'=> env('APP_AUTHOR','BkP Priyanshu'),
+
+    'stack' =>[
+        'backend'=> env('APP_BACKEND','Laravel'),
+
+        'frontend'=> env('APP_FRONTEND','React'),
+    ],
+    // 'author'=> 'Priyanshu Dave',
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment

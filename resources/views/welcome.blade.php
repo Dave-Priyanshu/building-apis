@@ -30,6 +30,11 @@
     <div class="grid-container">
         <div class="card">
             <i class="uil uil-credit-card card-icon"></i>
+            <h3>Loops</h3>
+            <a href="{{ route('loops') }}" class="card-button">Get Started</a>
+        </div>
+        <div class="card">
+            <i class="uil uil-credit-card card-icon"></i>
             <h3>Payment Gateway</h3>
             <a href="{{ route('razorpay.form') }}" class="card-button">Get Started</a>
         </div>
